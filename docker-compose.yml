@@ -6,7 +6,7 @@
   firefoxnode:
     image: selenium/node-firefox-debug
     ports:
-      - 4577
+      - 5900
 
     links:
       - seleniumhub:hub
@@ -14,13 +14,13 @@
   chromenode:
     image: selenium/node-chrome-debug
     ports:
-      - 4578
+      - 5900
     links:
       - seleniumhub:hub
 
   firefox3node:
     image: selenium/node-firefox-debug:3.4.0-bismuth
     ports:
-      - 4579
+      - 5900
     links:
       - seleniumhub:hub
