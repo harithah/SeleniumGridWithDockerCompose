@@ -24,3 +24,8 @@
       - 5900
     links:
       - seleniumhub:hub
+
+  headless:
+    image: selenium/node-phantomjs
+    links:
+      - seleniumhub:hub
